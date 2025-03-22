@@ -1,0 +1,2 @@
+Place the checkpoint of the already trained point prediction model into this folder.
+path: pretrain_checkpoints/SVQ/all/weather/192/checkpoint.pth
