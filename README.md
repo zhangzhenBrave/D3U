@@ -17,6 +17,12 @@ bash ./scripts/SVQ/exp_study/
   </button>
 </div>
 
+## Contact
+If you have any questions or want to use the code, feel free to contact:
+
+- ​**Qi Li**: [li.q@bupt.edu.cn](mailto:li.q@bupt.edu.cn)
+- ​**Zhenyu Zhang**: [zhangzhenyucad@bupt.edu.cn](mailto:zhangzhenyucad@bupt.edu.cn)
+
 
 ## Citation
 If you find this repo helpful, please cite our paper.
@@ -28,8 +34,3 @@ If you find this repo helpful, please cite our paper.
   booktitle={The Thirteenth International Conference on Learning Representations}
 }
 
-## Contact
-If you have any questions or want to use the code, feel free to contact:
-
-- ​**Qi Li**: [li.q@bupt.edu.cn](mailto:li.q@bupt.edu.cn)
-- ​**Zhenyu Zhang**: [zhangzhenyucad@bupt.edu.cn](mailto:zhangzhenyucad@bupt.edu.cn)
