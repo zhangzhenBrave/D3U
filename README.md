@@ -17,16 +17,7 @@ bash ./scripts/SVQ/exp_study/
   </button>
 </div>
 
-<script>
-  function copyCode() {
-    const codeBlock = document.getElementById('codeBlock');
-    navigator.clipboard.writeText(codeBlock.innerText).then(() => {
-      alert('Code copied to clipboard!');
-    }).catch(err => {
-      console.error('Failed to copy code: ', err);
-    });
-  }
-</script>
+
 ## Citation
 If you find this repo helpful, please cite our paper.
 
@@ -36,6 +27,7 @@ If you find this repo helpful, please cite our paper.
   author={Li, Qi and Zhang, Zhenyu and Yao, Lei and Li, Zhaoxia and Zhong, Tianyi and Zhang, Yong},
   booktitle={The Thirteenth International Conference on Learning Representations}
 }
+
 ## Contact
 If you have any questions or want to use the code, feel free to contact:
 
