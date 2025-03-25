@@ -346,7 +346,24 @@ class Exp_Main(Exp_Basic):
 
         
         return self.model
+        
+    def calculate_batch_crps(self,pred, true):
+            """
+            计算单个批次的 CRPS并行化处理。
 
+            """
+            pool = Pool(processes=32)
+            crps_values = pool.map(calculate_crps_worker, zip(pred, true))
+
+            # crps_sum_values = pool.map(calculate_crps_sum_worker, zip(pred, true))
+            pool.close()
+            pool.join()
+            # print('1',len(crps_values))
+            # print('2',len(crps_sum_values))
+            # 累加所有样本的 CRPS
+            batch_crps = np.sum(crps_values)
+            # batch_crps_sum = np.sum(crps_sum_values)
+            return batch_crps
 
     def test(self, setting, test=0):
         #####################################################################################################
