@@ -1,5 +1,10 @@
 # Diffusion-based-Decoupled-Deterministic-and-Uncertain-Framework-for-Probabilistic-MTS-Forecasting
 The repo is the official implementation for the paper: Diffusion-based-Decoupled-Deterministic-and-Uncertain-Framework-for-Probabilistic-MTS-Forecasting. 
+
+We provide support for iTransformer as a point forecasting model in another project (https://github.com/Torea-L/D3U), 
+where we will deliver long-term irregular updates for D3U. Thank you for your interest in D3U.
+
+
 ## Overall Architecture
 ![Logo](./figure/D3U.png)
 ## Usage
